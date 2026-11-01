@@ -1,0 +1,50 @@
+/* ============================================================
+   Kebala Balık — tasarım değişkenleri
+   Yerleşim fikri: göl yüzeyi gibi açık, ferah bölümler; lacivert
+   "derin su" bantları ritmi kırar. Tek (açık) tema bilinçli tercihtir.
+   ============================================================ */
+:root {
+  color-scheme: light;
+
+  /* Renk */
+  --navy: #0B2545;        /* derin su — başlıklar, koyu bantlar */
+  --navy-2: #13315C;
+  --sea: #1E88C8;         /* deniz mavisi — ana eylem */
+  --sea-d: #0F5E9C;
+  --turq: #2EC4B6;        /* turkuaz — vurgu, Keban suyu */
+  --turq-d: #139E92;
+  --turq-l: #D5F5F1;
+  --foam: #F2F9FC;        /* açık zemin */
+  --white: #FFFFFF;
+  --ink: #0B2545;
+  --muted: #4B6279;
+  --line: #D6E6F0;
+  --coral: #F28C6B;       /* alabalık eti — yemek vurgusu, idareli */
+  --gold: #E3B03F;        /* Çaydaçıra işlemesi — çok idareli */
+  --sun: #FFB703;
+
+  --ok: #12805C;  --ok-bg: #DDF5EA;
+  --concept: #7A4FD0; --concept-bg: #EEE7FF;
+  --rnd: #A35A00; --rnd-bg: #FFF1D6;
+  --err: #C2283A; --err-bg: #FDE8EB;
+
+  /* Tipografi */
+  --f-display: "Fraunces", "Georgia", "Times New Roman", serif;
+  --f-body: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-fun: "Bricolage Grotesque", "Manrope", system-ui, sans-serif;
+
+  --t-xs: .78rem; --t-sm: .9rem; --t-md: 1rem; --t-lg: 1.15rem;
+  --t-xl: clamp(1.35rem, 1.1rem + .9vw, 1.7rem);
+  --t-2xl: clamp(1.9rem, 1.4rem + 2vw, 2.9rem);
+  --t-3xl: clamp(2.3rem, 1.6rem + 3.2vw, 4.1rem);
+
+  /* Ölçü */
+  --r-sm: 10px; --r-md: 16px; --r-lg: 24px; --r-xl: 32px; --r-pill: 999px;
+  --s-1: .25rem; --s-2: .5rem; --s-3: .75rem; --s-4: 1rem; --s-5: 1.5rem; --s-6: 2rem; --s-7: 3rem; --s-8: 4.5rem; --s-9: 6rem;
+  --shadow-1: 0 1px 2px rgba(11,37,69,.06), 0 4px 14px rgba(11,37,69,.06);
+  --shadow-2: 0 10px 30px rgba(11,37,69,.12);
+  --shadow-3: 0 24px 60px rgba(11,37,69,.22);
+  --header-h: 72px;
+  --container: 1200px;
+  --ease: cubic-bezier(.2,.7,.2,1);
+}

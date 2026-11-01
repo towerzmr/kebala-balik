@@ -1,0 +1,31 @@
+/* Temel stiller ve tipografi */
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: clip; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; } }
+body {
+  margin: 0; background: var(--foam); color: var(--ink);
+  font-family: var(--f-body); font-size: var(--t-md); line-height: 1.6;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--white); }
+body.no-scroll, body.menu-open { overflow: hidden; }
+img, svg { max-width: 100%; display: block; }
+h1, h2, h3, h4 { margin: 0; line-height: 1.12; text-wrap: balance; color: var(--navy); }
+h1, h2 { font-family: var(--f-display); font-weight: 800; letter-spacing: -.01em; font-variation-settings: "opsz" 120; }
+h2 { font-size: var(--t-2xl); }
+h3 { font-size: var(--t-lg); font-weight: 800; }
+p { margin: 0; }
+a { color: var(--sea-d); text-underline-offset: 3px; }
+a:hover { color: var(--navy); }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--turq); outline-offset: 3px; border-radius: 6px; }
+code { font-size: .85em; background: var(--turq-l); padding: .1em .35em; border-radius: 6px; }
+section[id], [id] { scroll-margin-top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 8px); }
+.skip-link { position: absolute; left: 16px; top: -60px; background: var(--navy); color: #fff; padding: .6rem 1rem; border-radius: var(--r-sm); z-index: 100; }
+.skip-link:focus { top: 12px; color: #fff; }
+.selectable { user-select: all; }
+.noscript { padding: 1rem; text-align: center; background: var(--rnd-bg); }
+.soon { color: var(--muted); font-style: italic; }
