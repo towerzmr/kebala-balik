@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kebala Balık</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="Kebala Balık: Elazığ Keban alabalığını gastronomi, yöresel kültür, hediyelik eşya ve balık tutma deneyimiyle buluşturan marka. Ürünler, restoran menüsü ve rezervasyon.">
+  <meta name="keywords" content="Keban alabalığı, Elazığ, Kebala Balık, alabalık, balık tutma, Çırçır Şelalesi, Keban Baraj Gölü, alabalık restoranı">
+  <meta name="theme-color" content="#0B2545">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Kebala Balık — Keban'ın Lezzeti, Elazığ'ın Misafirperverliği">
+  <meta property="og:description" content="Keban alabalığı ürünleri, restoran menüsü, hediyelik eşyalar ve balık tutma deneyimi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/sections.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Kebala Balık",
+    "description": "Keban alabalığını gastronomi, yöresel kültür ve deneyim turizmiyle buluşturan Elazığ markası.",
+    "servesCuisine": ["Balık", "Türk mutfağı"],
+    "areaServed": "Elazığ",
+    "acceptsReservations": true,
+    "slogan": "Keban'ın Lezzeti, Elazığ'ın Misafirperverliği!"
+  }
+  </script>
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
+
+  <!-- ===================== ÜST MENÜ ===================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#ana-sayfa" aria-label="Kebala Balık ana sayfa">
+        <span class="brand__mark" data-logo="44"></span>
+        <span class="brand__text">Kebala <em>Balık</em></span>
+      </a>
+
+      <nav id="site-nav" class="site-nav" aria-label="Ana menü">
+        <ul class="nav-list">
+          <li><a href="#ana-sayfa">Ana Sayfa</a></li>
+          <li><a href="#keban-alabaligi">Keban Alabalığı</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li class="has-dropdown">
+            <div class="dropdown-row">
+              <a href="#urunler">Ürünlerimiz</a>
+              <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="dd-urunler" aria-label="Ürün kategorilerini göster">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <ul class="dropdown" id="dd-urunler">
+              <li><a href="#dondurulmus"><strong>Dondurulmuş Ürünler</strong><span>Fileto, köfte, bütün balık</span></a></li>
+              <li><a href="#atistirmaliklar"><strong>Atıştırmalıklar</strong><span>Cips, kraker, ezme</span></a></li>
+              <li><a href="#ozel-urunler"><strong>Özel Balık Ürünleri</strong><span>Füme, konserve, soslu</span></a></li>
+            </ul>
+          </li>
+          <li><a href="#hediyelik">Hediyelik Eşyalar</a></li>
+          <li><a href="#balik-tutma">Balık Tutma Deneyimi</a></li>
+          <li><a href="#menu">Restoran Menüsü</a></li>
+          <li><a href="#konum">Konum</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn cart-btn" type="button" data-cart-open aria-label="Sepeti aç">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.5L20.5 8H6.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </button>
+        <a class="btn btn--primary btn--sm header-cta" href="#balik-tutma">Rezervasyon</a>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menüyü aç">
+          <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="icerik">
+
+    <!-- ===================== 1. ANA SAYFA / HERO ===================== -->
+    <section id="ana-sayfa" class="hero" aria-labelledby="hero-title">
+      <div class="hero__sky" aria-hidden="true">
+        <svg class="hero__landscape" viewBox="0 0 1440 430" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="1180" cy="130" r="70" fill="#FFF3C4" opacity=".9"/>
+          <g fill="#fff" opacity=".8"><ellipse cx="260" cy="120" rx="90" ry="20"/><ellipse cx="320" cy="104" rx="56" ry="24"/><ellipse cx="900" cy="80" rx="80" ry="16"/></g>
+          <path d="M0,330 L140,230 L250,280 L380,180 L520,270 L660,200 L800,270 L940,190 L1080,260 L1220,200 L1340,250 L1440,220 V430 H0 Z" fill="#C9A27F" opacity=".75"/>
+          <path d="M0,370 L180,290 L320,340 L470,270 L640,340 L800,290 L980,350 L1140,290 L1300,340 L1440,300 V430 H0 Z" fill="#A8805F"/>
+          <path d="M0,410 C300,396 600,420 900,404 C1150,392 1300,406 1440,400 V430 H0 Z" fill="#2EC4B6"/>
+        </svg>
+      </div>
+      <div class="hero__water" aria-hidden="true">
+        <svg class="waves" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round">
+          <path d="M0,24 q60,-14 120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0" opacity=".5"/>
+          <path d="M-60,60 q60,-14 120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0 t120,0" opacity=".28"/>
+        </svg>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__stage" id="hero-mascots" aria-live="off"></div>
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--light">Keban · Elazığ</p>
+          <h1 id="hero-title" class="hero__title">Keban'ın Lezzeti, <span>Elazığ'ın Misafirperverliği!</span></h1>
+          <p class="hero__lead">Keban Baraj Gölü'nün alabalığını sofranıza, yöresel kültürü hediyelik eşyalara, göl kıyısını ise unutulmaz bir balık tutma deneyimine dönüştürüyoruz.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#urunler">Ürünlerimizi Keşfet</a>
+            <a class="btn btn--light btn--lg" href="#konum">Bizi Ziyaret Et</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="hero__chips">
+          <li><a href="#menu">Restoran menüsü</a></li>
+          <li><a href="#balik-tutma">Balık tutma rezervasyonu</a></li>
+          <li><a href="#hediyelik">Hediyelik eşyalar</a></li>
+          <li><a href="#sifir-atik">Sıfır atık yaklaşımı</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== 2. KEBAN ALABALIĞI ===================== -->
+    <section id="keban-alabaligi" class="section trout" aria-labelledby="trout-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Keban Alabalığını Tanıyalım</p>
+          <h2 id="trout-title">Serin sularda büyüyen, pembe etli bir lezzet</h2>
+          <p class="section-lead">Türkiye'nin en büyük baraj göllerinden Keban'ın serin ve oksijence zengin suları, gökkuşağı alabalığı yetiştiriciliği için elverişli bir ortam sunar.</p>
+        </header>
+
+        <div class="trout-hero" data-reveal>
+          <figure class="trout-hero__img" data-scene="lake"></figure>
+          <figcaption class="trout-hero__cap">Keban Baraj Gölü — çizim, temsilîdir. Gerçek fotoğraflar <code>assets/img/</code> klasörüne eklenecek.</figcaption>
+        </div>
+
+        <div class="facts">
+          <article class="fact" data-reveal>
+            <span class="fact__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12c-2-3.5-6-5.5-10-5-2 .2-4 1.2-5 2.5L3 7l1 5-1 5 3-2.5c1 1.3 3 2.3 5 2.5 4 .5 8-1.5 10-5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="16.5" cy="11" r="1" fill="currentColor"/></svg></span>
+            <h3>Özellikleri</h3>
+            <p>Gökkuşağı alabalığı (<i lang="la">Oncorhynchus mykiss</i>), yanlarındaki pembe-kırmızı bant ve siyah beneklerle tanınır. Serin, temiz ve oksijeni bol suyu sever.</p>
+          </article>
+          <article class="fact" data-reveal>
+            <span class="fact__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 15c2 0 2-1.5 4-1.5S8 15 10 15s2-1.5 4-1.5S16 15 18 15s2-1.5 4-1.5M2 19c2 0 2-1.5 4-1.5S8 19 10 19s2-1.5 4-1.5S16 19 18 19s2-1.5 4-1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            <h3>Yetiştirilme koşulları</h3>
+            <p>Keban'da alabalık, göl üzerinde kurulan yüzer ağ kafeslerde yetiştirilir. Su sıcaklığı, oksijen düzeyi ve yem kalitesi düzenli olarak izlenir.</p>
+          </article>
+          <article class="fact" data-reveal>
+            <span class="fact__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 14a3 3 0 0 0 3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+            <h3>Besin değeri</h3>
+            <p>Kaliteli protein, omega-3 yağ asitleri (EPA ve DHA), B12 ve D vitamini içerir. Dengeli beslenmenin lezzetli bir parçasıdır.</p>
+          </article>
+          <article class="fact" data-reveal>
+            <span class="fact__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16M6 12a6 6 0 0 0 12 0M12 3v3M8 5l1 2M16 5l-1 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+            <h3>Lezzet özellikleri</h3>
+            <p>Açık pembe, yumuşak dokulu eti hafif ve tatlımsı bir aromaya sahiptir. Izgara, tava, fırın ve kiremitte pişirmeye çok uygundur.</p>
+          </article>
+        </div>
+
+        <div class="nutrition" data-reveal>
+          <div class="nutrition__table">
+            <h3>100 g çiğ alabalıkta <small>(çiftlik gökkuşağı alabalığı, yaklaşık)</small></h3>
+            <dl>
+              <div><dt>Enerji</dt><dd>~141 kcal</dd></div>
+              <div><dt>Protein</dt><dd>~20 g</dd></div>
+              <div><dt>Yağ</dt><dd>~6 g</dd></div>
+              <div><dt>Karbonhidrat</dt><dd>0 g</dd></div>
+            </dl>
+            <p class="source-note">Kaynak: USDA FoodData Central, "Fish, trout, rainbow, farmed, raw". Ürün etiketlerindeki değerler laboratuvar analiziyle ayrıca belirlenecektir.</p>
+          </div>
+          <div class="nutrition__elazig">
+            <h3>Elazığ'ın su ürünlerindeki yeri</h3>
+            <p>Elazığ, haberlere yansıyan verilere göre Türkiye'de alabalık üretiminin en yüksek olduğu iller arasında ilk sırada yer alıyor. Üretimin önemli bir bölümü Keban Baraj Gölü'ndeki ağ kafes işletmelerinde yapılıyor ve işlenmiş ürünler pek çok ülkeye ihraç ediliyor.</p>
+            <p class="source-note">Kaynaklar: <a href="https://www.yenisafak.com/ekonomi/turkiyede-en-cok-elazigda-uretilen-alabalik-18-bin-tona-somon-bin-tona-yukseldi-islendikten-sonra-avrupaya-satiliyor-3514564" target="_blank" rel="noopener">Yeni Şafak</a>, <a href="https://www.turkiyegazetesi.com.tr/yasam/elazigda-uretiliyor-25-ulkeye-ihrac-ediliyor-801283" target="_blank" rel="noopener">Türkiye Gazetesi</a>, <a href="https://acikbilim.yok.gov.tr/handle/20.500.12812/715288" target="_blank" rel="noopener">YÖK Açık Bilim</a></p>
+          </div>
+        </div>
+
+        <div class="map-block" data-reveal>
+          <div class="map-block__text">
+            <h3>Elazığ'da alabalık yetiştiriciliği nerede yapılıyor?</h3>
+            <p>Haritada, Elazığ'da kafes alabalık yetiştiriciliğinin yoğunlaştığı su alanı olan <strong>Keban Baraj Gölü</strong> vurgulanmıştır. Göl; Keban, Ağın ve Merkez ilçe sınırları boyunca uzanır.</p>
+            <p class="notice notice--info">Tekil işletme noktaları, resmî kaynaklardan (Tarım ve Orman Bakanlığı / İl Müdürlüğü kayıtları) doğrulandıktan sonra eklenecektir.</p>
+            <ul class="legend">
+              <li><span class="legend__swatch legend__swatch--lake"></span>Keban Baraj Gölü</li>
+              <li><span class="legend__swatch legend__swatch--glow"></span>Yetiştiriciliğin yoğun olduğu alan</li>
+              <li><span class="legend__swatch legend__swatch--town"></span>İlçe merkezi (yaklaşık)</li>
+            </ul>
+          </div>
+          <figure class="map-block__map" data-map="farming"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HAKKIMIZDA ===================== -->
+    <section id="hakkimizda" class="section about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__art" data-reveal>
+          <div class="about__mascot" data-mascot="male" data-label="Erkek maskot el sallıyor"></div>
+          <div class="about__mascot about__mascot--f" data-mascot="female" data-label="Dişi maskot el sallıyor"></div>
+        </div>
+        <div class="about__copy" data-reveal>
+          <p class="eyebrow">Hakkımızda</p>
+          <h2 id="about-title">Bir balık markasından fazlası</h2>
+          <p>Kebala Balık, Elazığ Keban'ın alabalığını gastronomi, yöresel kültür, hediyelik eşya ve deneyim odaklı turizmle bir araya getiren genç bir markadır.</p>
+          <p>Maskotlarımız Elazığ'ın Çaydaçıra kıyafetlerini ve sekiz köşeli geleneksel şapkasını taşıyor. Çünkü bizim için alabalık, bu şehrin misafirperverliğini anlatmanın bir yolu.</p>
+          <ul class="values">
+            <li><strong>Yerel</strong><span>Keban'ın suyu, Elazığ'ın emeği</span></li>
+            <li><strong>Taze</strong><span>Göl ile sofra arasındaki yol kısa</span></li>
+            <li><strong>Sıfır atık</strong><span>Balığın her parçasına değer</span></li>
+            <li><strong>Misafirperver</strong><span>Her ziyaretçi bizim konuğumuz</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SIFIR ATIK ===================== -->
+    <section id="sifir-atik" class="section zero" aria-labelledby="zero-title">
+      <div class="container">
+        <header class="section-head section-head--center" data-reveal>
+          <p class="eyebrow eyebrow--light">Sıfır Atık</p>
+          <h2 id="zero-title">Bir Balıktan Çok Daha Fazlası!</h2>
+          <p class="section-lead">Her Parçası Değer, Her Fikri Gelecek.</p>
+        </header>
+        <div class="zero__layout">
+          <figure class="zero__fish" id="zw-fish" data-reveal></figure>
+          <ul class="zero__parts">
+            <li class="zw zw--meat" data-reveal><span class="zw__dot"></span><div><h3>Balık eti</h3><p>Yemekler, dondurulmuş ürünler ve atıştırmalıklar.</p><span class="badge badge--ok">Ürün</span></div></li>
+            <li class="zw zw--skin" data-reveal><span class="zw__dot"></span><div><h3>Balık derisi</h3><p>Tabaklanarak çanta ve cüzdana dönüşebilir.</p><span class="badge badge--concept">Konsept</span></div></li>
+            <li class="zw zw--scale" data-reveal><span class="zw__dot"></span><div><h3>Balık pulları</h3><p>Kolye, küpe ve dekoratif objeler.</p><span class="badge badge--concept">Konsept</span></div></li>
+            <li class="zw zw--bone" data-reveal><span class="zw__dot"></span><div><h3>Balık kılçıkları</h3><p>Biyoseramik ve hidroksiapatit araştırmaları.</p><span class="badge badge--rnd">Araştırma</span></div></li>
+            <li class="zw zw--frame" data-reveal><span class="zw__dot"></span><div><h3>Balık kemikleri</h3><p>Jelatin ve mineral bileşen araştırmaları.</p><span class="badge badge--rnd">Araştırma</span></div></li>
+            <li class="zw zw--oil" data-reveal><span class="zw__dot"></span><div><h3>Balık yağı</h3><p>Uygun kalite kontrolüyle değerlendirilebilecek ürünler.</p><span class="badge badge--rnd">Ar-Ge fikri</span></div></li>
+          </ul>
+        </div>
+        <p class="zero__note">Araştırma ve Ar-Ge aşamasındaki başlıklar ticari ürün değildir; üniversite ve laboratuvar iş birlikleriyle değerlendirilecek fikirlerdir.</p>
+      </div>
+    </section>
+
+    <!-- ===================== ÜRÜNLERİMİZ ===================== -->
+    <section id="urunler" class="section products-intro" aria-labelledby="products-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Ürünlerimiz</p>
+          <h2 id="products-title">Gölden sofraya, raftan çantaya</h2>
+          <p class="section-lead">Satıştaki ürünleri sepete ekleyebilir, konsept ürünler için satışa çıktığında haber alabilirsiniz. Fiyatlar örnek olarak gösterilmektedir.</p>
+        </header>
+        <div class="cat-cards">
+          <a class="cat-card cat-card--frozen" href="#dondurulmus" data-reveal><span class="cat-card__art" data-cat-art="frozen"></span><strong>Dondurulmuş Ürünler</strong><span>Bütün balık, fileto, köfte ve fırına hazır paketler</span></a>
+          <a class="cat-card cat-card--snack" href="#atistirmaliklar" data-reveal><span class="cat-card__art" data-cat-art="snack"></span><strong>Atıştırmalıklar</strong><span>Balık cipsi, kraker ve ezmeler</span></a>
+          <a class="cat-card cat-card--special" href="#ozel-urunler" data-reveal><span class="cat-card__art" data-cat-art="special"></span><strong>Özel Balık Ürünleri</strong><span>Füme, konserve ve soslu ürünler</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="dondurulmus" class="section market" aria-labelledby="frozen-title">
+      <div class="container">
+        <header class="section-head section-head--row" data-reveal>
+          <div>
+            <p class="eyebrow">Dondurulmuş Ürünler</p>
+            <h2 id="frozen-title">Gurme market rafı</h2>
+          </div>
+          <p class="section-lead">Şok dondurma ile tazeliği korunan, pratik ve porsiyonlu alabalık ürünleri.</p>
+        </header>
+        <div class="filter-bar" id="filter-dondurulmus"></div>
+        <div class="grid grid--products" id="grid-dondurulmus"></div>
+      </div>
+    </section>
+
+    <section id="atistirmaliklar" class="section snacks" aria-labelledby="snack-title">
+      <div class="snacks__bubbles" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head section-head--row" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--snack">Atıştırmalıklar</p>
+            <h2 id="snack-title" class="snack-title">Çıtır, eğlenceli, <span>balıklı!</span></h2>
+          </div>
+          <p class="section-lead">Balık cipsi ve krakerden ezmelere; geliştirme aşamasındaki atıştırmalık koleksiyonumuz.</p>
+        </header>
+        <div class="filter-bar filter-bar--snack" id="filter-atistirmalik"></div>
+        <div class="grid grid--products" id="grid-atistirmalik"></div>
+        <p class="notice notice--rnd snacks__note">Besin takviyesi ve vitamin kategorisindeki fikirler geliştirme aşamasındadır; herhangi bir sağlık beyanı içermez.</p>
+      </div>
+    </section>
+
+    <section id="ozel-urunler" class="section market market--alt" aria-labelledby="special-title">
+      <div class="container">
+        <header class="section-head section-head--row" data-reveal>
+          <div>
+            <p class="eyebrow">Özel Balık Ürünleri</p>
+            <h2 id="special-title">Füme, konserve ve soslu</h2>
+          </div>
+          <p class="section-lead">Uzun raf ömürlü, hediyelik paketlere de uygun özel seri.</p>
+        </header>
+        <div class="filter-bar" id="filter-ozel"></div>
+        <div class="grid grid--products" id="grid-ozel"></div>
+      </div>
+    </section>
+
+    <!-- ===================== HEDİYELİK ===================== -->
+    <section id="hediyelik" class="section gifts" aria-labelledby="gifts-title">
+      <div class="container">
+        <header class="section-head section-head--row" data-reveal>
+          <div>
+            <p class="eyebrow">Hediyelik Eşya Koleksiyonu</p>
+            <h2 id="gifts-title">Keban'dan bir hatıra</h2>
+          </div>
+          <p class="section-lead">Alabalık ve Elazığ kültüründen ilham alan tasarımlar. Koleksiyonun tamamı şu an konsept aşamasındadır.</p>
+        </header>
+        <div class="filter-bar" id="filter-hediyelik"></div>
+        <div class="grid grid--gifts" id="grid-hediyelik"></div>
+      </div>
+    </section>
+
+    <!-- ===================== BALIK TUTMA ===================== -->
+    <section id="balik-tutma" class="section fishing" aria-labelledby="fishing-title">
+      <div class="fishing__banner" data-scene="fishing"></div>
+      <div class="container fishing__grid">
+        <div class="fishing__copy" data-reveal>
+          <p class="eyebrow eyebrow--light">Balık Tutma Deneyimi</p>
+          <h2 id="fishing-title">Keban'da Kendi Balığını Yakalamaya Hazır mısın?</h2>
+          <p>Göl kıyısında, rehberlerimiz eşliğinde oltanı at ve kendi alabalığını yakala. Yakaladığın balığı restoranımızda pişirtebilir ya da soğuk zincirde paketletip evine götürebilirsin. Aileler, arkadaş grupları ve okul gezileri için uygundur.</p>
+          <ol class="steps">
+            <li><strong>Rezervasyon</strong><span>Tarih, saat ve kişi sayısını seç.</span></li>
+            <li><strong>Karşılama</strong><span>Ekipman ve güvenlik bilgilendirmesi.</span></li>
+            <li><strong>Balık tutma</strong><span>Rehber eşliğinde göl kıyısında.</span></li>
+            <li><strong>Sofra ya da paket</strong><span>Pişirt veya paketletip götür.</span></li>
+          </ol>
+          <p class="fishing__fine">Deneyim süresi, ücretler ve çalışma saatleri işletme açılışıyla birlikte netleşecektir.</p>
+        </div>
+
+        <div class="booking" data-reveal>
+          <form id="reservation-form" class="form" novalidate aria-labelledby="booking-title">
+            <h3 id="booking-title">Rezervasyon oluştur</h3>
+            <p class="demo-hint">Demo sürüm: Form doğrulanır ve onay ekranı gösterilir, ancak talep henüz işletmeye iletilmez.</p>
+            <div class="form-grid">
+              <div class="field field--full">
+                <label for="r-name">Ad Soyad</label>
+                <input id="r-name" name="name" type="text" autocomplete="name" required aria-describedby="r-name-err">
+                <p class="field__error" id="r-name-err" hidden></p>
+              </div>
+              <div class="field">
+                <label for="r-phone">Telefon Numarası</label>
+                <input id="r-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05xx xxx xx xx" required aria-describedby="r-phone-err">
+                <p class="field__error" id="r-phone-err" hidden></p>
+              </div>
+              <div class="field">
+                <label for="r-email">E-posta</label>
+                <input id="r-email" name="email" type="email" autocomplete="email" placeholder="ad@eposta.com" required aria-describedby="r-email-err">
+                <p class="field__error" id="r-email-err" hidden></p>
+              </div>
+              <div class="field">
+                <label for="r-date">Ziyaret Tarihi</label>
+                <input id="r-date" name="date" type="date" required aria-describedby="r-date-err">
+                <p class="field__error" id="r-date-err" hidden></p>
+              </div>
+              <div class="field">
+                <label for="r-time">Tercih Edilen Saat</label>
+                <select id="r-time" name="time" required aria-describedby="r-time-err"></select>
+                <p class="field__error" id="r-time-err" hidden></p>
+              </div>
+              <div class="field">
+                <label for="r-people">Kişi Sayısı</label>
+                <div class="stepper">
+                  <button type="button" data-step="-1" aria-label="Kişi sayısını azalt">−</button>
+                  <input id="r-people" name="people" type="number" min="1" value="2" inputmode="numeric" required aria-describedby="r-people-err">
+                  <button type="button" data-step="1" aria-label="Kişi sayısını artır">+</button>
+                </div>
+                <p class="field__error" id="r-people-err" hidden></p>
+              </div>
+              <div class="field field--full">
+                <label for="r-notes">Özel notlar <span class="optional">(isteğe bağlı)</span></label>
+                <textarea id="r-notes" name="notes" rows="3" maxlength="400" placeholder="Çocuklu aile, ilk deneyim, ekipman ihtiyacı, yakalanan balığın pişirilmesi…" aria-describedby="r-notes-count"></textarea>
+                <p class="field__hint" id="r-notes-count">0/400</p>
+              </div>
+              <div class="field field--full field--check">
+                <label class="check"><input id="r-consent" type="checkbox" required aria-describedby="r-consent-err"><span>Bilgilerimin rezervasyon amacıyla işlenmesini kabul ediyorum.</span></label>
+                <p class="field__error" id="r-consent-err" hidden></p>
+              </div>
+            </div>
+            <button class="btn btn--primary btn--lg btn--block" type="submit"><span>Rezervasyon oluştur</span></button>
+          </form>
+
+          <div id="reservation-success" class="success" hidden>
+            <div class="success__mascot" data-mascot="female" data-label="Dişi maskot sevinçle el sallıyor"></div>
+            <h3 tabindex="-1">Rezervasyon talebiniz oluşturuldu!</h3>
+            <p>Bu bir demo onay ekranıdır. Rezervasyon altyapısı devreye girdiğinde talepler işletmeye iletilecek ve size onay mesajı gönderilecek.</p>
+            <dl class="success__summary" id="rs-summary"></dl>
+            <button type="button" class="btn btn--ghost" id="rs-new">Yeni rezervasyon oluştur</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESTORAN MENÜSÜ ===================== -->
+    <section id="menu" class="section menu" aria-labelledby="menu-title">
+      <div class="container">
+        <header class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">Restoran Menüsü</p>
+          <h2 id="menu-title">Ateşten, fırından, kiremitten</h2>
+          <p class="section-lead">Klasik Keban tariflerinden yenilikçi balık yemeklerine. Fiyatlar örnektir; açılış menüsüyle güncellenecektir.</p>
+        </header>
+        <div id="menu-root" class="menu-root"></div>
+      </div>
+    </section>
+
+    <!-- ===================== KONUM ===================== -->
+    <section id="konum" class="section location" aria-labelledby="location-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Konum ve Ulaşım</p>
+          <h2 id="location-title">Çırçır Şelalesi'nin hemen yanı başında</h2>
+        </header>
+        <div class="location__grid">
+          <figure class="location__photo" data-reveal>
+            <div data-scene="waterfall"></div>
+            <figcaption>Turkuaz suyuyla bilinen ve "dünyanın en genç şelalesi" olarak anılan Çırçır Şelalesi, her yıl yüz binlerce ziyaretçiyi ağırlıyor. <a href="https://www.ntv.com.tr/yasam/galeri-dunyanin-en-genc-selalesi-turkuaz-rengiyle-buyuluyor-1735491" target="_blank" rel="noopener">Kaynak</a></figcaption>
+          </figure>
+          <div class="location__info" data-reveal>
+            <dl class="info-list">
+              <div><dt>Bölge</dt><dd data-info="region"></dd></div>
+              <div><dt>Adres</dt><dd data-info="address"></dd></div>
+              <div><dt>Çalışma saatleri</dt><dd data-info="hours"></dd></div>
+              <div><dt>Telefon</dt><dd data-info="phone"></dd></div>
+              <div><dt>E-posta</dt><dd data-info="email"></dd></div>
+            </dl>
+            <div class="location__actions">
+              <a class="btn btn--primary" data-map="directions" href="#" target="_blank" rel="noopener">Yol tarifi al</a>
+              <a class="btn btn--ghost" data-map="view" href="#" target="_blank" rel="noopener">Haritada görüntüle</a>
+            </div>
+            <p class="notice notice--info" data-map-note>Kesin işletme konumu henüz belirlenmediği için harita bağlantıları Çırçır Şelalesi bölgesini gösterir.</p>
+          </div>
+          <figure class="location__map" data-map="location" data-reveal></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== İLETİŞİM ===================== -->
+    <section id="iletisim" class="section contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__copy" data-reveal>
+          <p class="eyebrow">İletişim</p>
+          <h2 id="contact-title">Bize yazın</h2>
+          <p>Toplu sipariş, okul gezisi, iş birliği veya hediyelik ürün talepleriniz için formu doldurun.</p>
+          <ul class="contact-cards">
+            <li><span class="contact-cards__k">Telefon</span><span data-info="phone"></span></li>
+            <li><span class="contact-cards__k">E-posta</span><span data-info="email"></span></li>
+            <li><span class="contact-cards__k">Sosyal medya</span><ul class="social-list" data-social-list></ul></li>
+          </ul>
+        </div>
+        <form id="contact-form" class="form contact__form" novalidate data-reveal aria-label="İletişim formu">
+          <div class="form-grid">
+            <div class="field">
+              <label for="c-name">Ad Soyad</label>
+              <input id="c-name" type="text" autocomplete="name" required aria-describedby="c-name-err">
+              <p class="field__error" id="c-name-err" hidden></p>
+            </div>
+            <div class="field">
+              <label for="c-email">E-posta</label>
+              <input id="c-email" type="email" autocomplete="email" required aria-describedby="c-email-err">
+              <p class="field__error" id="c-email-err" hidden></p>
+            </div>
+            <div class="field field--full">
+              <label for="c-topic">Konu</label>
+              <select id="c-topic" required aria-describedby="c-topic-err">
+                <option value="">Konu seçin</option>
+                <option>Ürün ve sipariş</option>
+                <option>Balık tutma deneyimi</option>
+                <option>Restoran ve grup rezervasyonu</option>
+                <option>Hediyelik eşya</option>
+                <option>İş birliği</option>
+                <option>Diğer</option>
+              </select>
+              <p class="field__error" id="c-topic-err" hidden></p>
+            </div>
+            <div class="field field--full">
+              <label for="c-message">Mesajınız</label>
+              <textarea id="c-message" rows="5" required aria-describedby="c-message-err"></textarea>
+              <p class="field__error" id="c-message-err" hidden></p>
+            </div>
+          </div>
+          <p class="demo-hint">Demo: Mesajlar henüz bir sunucuya gönderilmez.</p>
+          <button class="btn btn--primary btn--lg" type="submit">Mesajı gönder</button>
+          <div id="contact-success" class="inline-success" hidden role="status"><p></p></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--light" href="#ana-sayfa"><span class="brand__mark" data-logo="52"></span><span class="brand__text">Kebala <em>Balık</em></span></a>
+        <p>Keban alabalığını gastronomi, yöresel kültür, hediyelik eşya ve deneyim turizmiyle buluşturan Elazığ markası.</p>
+        <ul class="social-list social-list--light" data-social-list></ul>
+      </div>
+      <nav aria-label="Hızlı bağlantılar">
+        <h2 class="footer-title">Hızlı bağlantılar</h2>
+        <ul>
+          <li><a href="#keban-alabaligi">Keban Alabalığı</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#balik-tutma">Balık Tutma Deneyimi</a></li>
+          <li><a href="#menu">Restoran Menüsü</a></li>
+          <li><a href="#sifir-atik">Sıfır Atık</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Ürün kategorileri">
+        <h2 class="footer-title">Ürünler</h2>
+        <ul>
+          <li><a href="#dondurulmus">Dondurulmuş Ürünler</a></li>
+          <li><a href="#atistirmaliklar">Atıştırmalıklar</a></li>
+          <li><a href="#ozel-urunler">Özel Balık Ürünleri</a></li>
+          <li><a href="#hediyelik">Hediyelik Eşyalar</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-title">İletişim</h2>
+        <ul class="footer-contact">
+          <li data-info="region"></li>
+          <li>Telefon: <span data-info="phone"></span></li>
+          <li>E-posta: <span data-info="email"></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <details class="credits" id="photo-credits" hidden>
+        <summary>Görsel kaynakları</summary>
+        <ul></ul>
+      </details>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year></span> Kebala Balık. Tüm hakları saklıdır.</p>
+      <p>Fotoğrafı eklenmemiş görseller temsilî çizimlerdir. Konsept ürünler satışta değildir.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== SEPET ===================== -->
+  <div class="overlay" id="cart-overlay" hidden></div>
+  <aside class="drawer" id="cart-drawer" aria-hidden="true" aria-labelledby="cart-title" role="dialog">
+    <div class="drawer__head">
+      <h2 id="cart-title">Sepetim <span class="cart-count cart-count--inline" data-cart-count hidden>0</span></h2>
+      <button class="icon-btn drawer__close" type="button" data-cart-close aria-label="Sepeti kapat">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <ul class="drawer__list" id="cart-items"></ul>
+    <div class="drawer__foot">
+      <div class="drawer__total"><span>Ara toplam</span><strong id="cart-total">₺0</strong></div>
+      <p class="drawer__fine">Kargo ve soğuk zincir ücreti siparişte hesaplanır.</p>
+      <button class="btn btn--primary btn--lg btn--block" id="cart-checkout" type="button">Siparişi tamamla</button>
+      <p class="notice notice--info" id="cart-note" tabindex="-1" hidden>Online ödeme altyapısı henüz bağlı değil. Bu sepet bir demodur; sipariş oluşturulmadı.</p>
+    </div>
+  </aside>
+
+  <noscript><p class="noscript">Ürün kataloğu, menü ve rezervasyon formu için JavaScript'i etkinleştirin.</p></noscript>
+</body>
+</html>
